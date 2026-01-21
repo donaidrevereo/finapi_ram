@@ -12,6 +12,7 @@ pool:
   name: student-lab-pool
 
 variables:
+  - group: LogAnalyticsSecrets
   - name: artifactName
     value: 'api'
 
