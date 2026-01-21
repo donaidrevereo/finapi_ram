@@ -4,6 +4,7 @@ pool:
   name: student-lab-pool
 
 variables:
+  - group: LogAnalyticsSecrets
   - name: projectName
     value: 'Training-Student-022-OC012'              # <-- Update this
   - name: buildPipelineName
